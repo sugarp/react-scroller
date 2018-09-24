@@ -1,0 +1,54 @@
+.scroll-view {
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+}
+
+.scroll-content {
+    //width: 6000px;
+    //height: 8000px;
+    //background: url(http://i.yochicago.com/images/hpmain/413/288413.jpg);
+    //background-size: contain;
+
+    width: auto;
+    height: auto;
+    display: inline-block;
+}
+
+.scroll-bar {
+    position: absolute;
+    border-radius: 5px;
+    background-color: #c6c6c691;
+    z-index: 9;
+    //opacity: 0.4;
+
+    .scroll-bar:hover {
+        opacity: 0.8;
+    }
+
+    .indicator {
+        background: #5e5e5e!important;
+        will-change: transform;
+    }
+
+    &.x {
+        width: 100%;
+        bottom: 0;
+        height: 20px;
+
+        >.indicator {
+            height: 20px;
+        }
+    }
+
+    &.y {
+        height: 100%;
+        right: 0;
+        width: 20px;
+
+        >.indicator {
+            height: 20px;
+        }
+    }
+}

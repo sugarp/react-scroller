@@ -1,0 +1,37 @@
+.screen {
+    width: 100vw;
+    height: 100vh;
+    padding-top: 4rem;
+    position: relative;
+}
+
+.screen-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 80vw;
+}
+
+h1 {
+    align-items: center;
+    justify-content: center;
+}
+
+h2 {
+    font-weight: normal;
+}
+
+.col {
+    flex: 1;
+}
+
+.panel-video {
+    background-color: #009688
+    ;
+}
+
+.panel-features {
+    background-color: #03A9F4;
+    display: flex;
+}

@@ -1,0 +1,5 @@
+rootProject.name = 'scrollable-demo'
+//
+//include ':views-js'
+//project(':views-js').projectDir = new File(settingsDir, '../../source/clients/views/js')
+//
