@@ -6,5 +6,3 @@ I needed such scrollable layer to create this particular component where user ha
 Feel free to reuse any part of the code. There are also some useful classes as binary search and other utils, extension functions, abstract classes etc.
 
 <a href="https://sugarp.github.io/react-scroller/docs/">DEMO COMPONENT</a>
-
-BUG: due to some chrome extensions recalculation of styles in rendering process can take up to 100 times more of processing time (-> open incognito window to see the DEMO)
